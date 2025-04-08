@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: my-docker-app
+    build: .
+    ports:
+      - "8080:80"
